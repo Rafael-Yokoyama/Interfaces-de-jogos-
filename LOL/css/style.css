@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-self:center;
+    
+}
+
+
+main #conteudo-esquerda {
+    position: relative;
+
+    width: 30%;
+    height: 100vh;
+    padding:50px;
+    
+   
+
+}
+
+main #conteudo-esquerda .fa-question-circle
+
+{
+    position:absolute;
+    top:40px;
+    right:50px;
+     color:#b2b2b2;
+    
+
+}
+main #conteudo-esquerda h2{
+    padding-top:20px;
+    font-size:20px;
+}
+   
+
+
+
+main #conteudo-esquerda .input-login input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding:12px;
+    margin-top:10px;
+    font-size:9px;
+    background:#ededed;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main #conteudo-esquerda input:focus{
+   background:white;
+}
+
+
+
+/* parte para mudar cor do checkbox */
+
+.checkbox{
+    display:block;
+    position: relative;
+    margin-top: 11px;
+    margin-right: 110px;
+    cursor: pointer;
+    font-size:10px;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+}
+.checkbox input{
+    position:absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+  
+}
+
+.check{
+    border-radius: 2px;
+    background:#ccc;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 13px;
+    height: 13px;
+    
+}
+.checkbox input:checked ~ .check{
+    background:rgb(172, 3, 3);
+}
+.checkbox .check:after{
+   
+    top:0px;
+    left:4px;
+    width: 2px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+ .check:after{
+    content: "";
+    position: absolute;
+    display:none;
+}
+
+.checkbox input:checked ~ .check:after{
+    display:block;
+
+}
+
+
+main #social-midia button {
+    width: 73px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top:15px;
+
+}
+main #social-midia button#facebook{
+    color:white;
+    background:#1877f2;
+
+}
+main #social-midia button#google{
+    color:black;
+    background:white;
+
+}
+main #social-midia button#apple{
+    color:white;
+    background:black;
+
+}
+
+button{
+    border:none;
+    outline: none;
+    
+}
+.login{
+    margin:30px;
+}
+
+
+
+main #img-lol{
+    position: relative;
+    background:url('../img/ashe.jpg');
+    width: 70%;
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+
+
+}
+
+main #img-lol .fa-cog{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    background-color: rgb(105, 105, 105);
+    padding: 8px  10px;
+    
+    border-radius:5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+main #img-lol .exclamation
+{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    background-color: rgb(217, 80, 229);
+    padding: 5px 12px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius:2px;
+    color: #000;
+    cursor: pointer;
+}
+
+main #img-lol .fa-exclamation{
+    transform: rotate(-45deg);
+
+}
+
+main #img-lol .fa-times{
+    position: absolute;
+    top:10px;
+    right:10px;
+    color:#ccc
+}
+main #img-lol .fa-question-circle{
+    position: absolute;
+    top:10px;
+    right:40px;
+    color:#ccc
+
+}
+main #img-lol .fa-minus{
+    position: absolute;
+    top:10px;
+    right:70px;
+    color:#ccc;
+
+}
+
+main .login #seta  {
+    
+     background-color: transparent;
+    border: 2px solid rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom:60px;
+}
+
+
+ main .login h3 {
+    color: rgb(165, 165, 165);
+    font-size: 10px;
+    
+    text-transform: uppercase;
+    
+ }
+
+ main .login span {
+     position: absolute;
+     bottom:52px;
+     right: 45px;
+    color: rgb(165, 165, 165);
+    font-size: 8px;
+    font-weight: bold;
+
+ }
+    
+
+
+
+
+
+
+
+ 

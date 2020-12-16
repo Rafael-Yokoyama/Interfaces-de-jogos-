@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css">
     <title>LOL League of Legends</title>
 </head>
 <body>
      <main>
-       <section>
+       <section id="conteudo-esquerda">
         <span>
             <i class="fa fa-question-circle"></i>
         </span>
-        <img src="" alt="logo do lol"> 
+        <img src="img/logo.png" width="38" alt="logo do lol"> 
+
+        <h2>
+            Sign in
+        </h2>
       
+       <div class="input-login">
         <input type="text" placeholder="username">  
         <input type="password" placeholder="password"> 
+       </div>
 
         <div id="social-midia">
             <button id="facebook"><i class="fa fa-facebook"></i></button>
@@ -23,28 +30,37 @@
             <button id="apple"><i class="fa fa-apple"></i></button>
         </div>
 
-        <div>
-            <input type="checkbox" id="stay" name="stay">
-                  <label >  stay signed in </label>
-        </div>
+        <label class="checkbox">
+            <input type="checkbox" name="stay" />
+            <span class="check"></span> Stay signed in
+        </label>
+
+
+            
+        
         
         <div class="login">
             <button id="seta"><i class="fa fa-arrow-right"></i></button>
-            <h3>Can´t sign in  ?</h3>
+            <h3>Can't sign in  ?</h3>
                 <h3>create account </h3>
            <span> V20.31.2</span>
         </div>
        </section>
 
-       <section>
+       <section id="img-lol">
 
-      <div class="icon-image">
-        <i class="fa fa-exclamation"></i>
-        <i class="fa fa-cog"></i>
+            <div class="exclamation"> 
+                <i class="fa fa-exclamation fa-lg"></i>
+
+            </div>
+      
+       
+       
+        <i class="fa fa-cog fa"></i>
         <i class="fa fa-question-circle"></i>
-        <i class="fa fa-times"></i>
+        <i class="fa fa-times fa-lg"></i>
         <i class="fa fa-minus"></i>
-      </div>
+     
 
         
        </section>
