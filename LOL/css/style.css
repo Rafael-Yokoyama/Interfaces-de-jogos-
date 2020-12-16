@@ -207,13 +207,15 @@ main #img-lol .fa-times{
     position: absolute;
     top:10px;
     right:10px;
-    color:#ccc
+    color:#ccc;
+    opacity:0.5;
 }
-main #img-lol .fa-question-circle{
+main #img-lol .fa-question{
     position: absolute;
     top:10px;
     right:40px;
-    color:#ccc
+    color:#ccc;
+    opacity:0.5;
 
 }
 main #img-lol .fa-minus{
@@ -221,6 +223,7 @@ main #img-lol .fa-minus{
     top:10px;
     right:70px;
     color:#ccc;
+    opacity:0.5;
 
 }
 
@@ -259,7 +262,7 @@ main .login #seta  {
 
 /* Responsividade*/
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1000px){
     main #img-lol{
         display: none;
     }
