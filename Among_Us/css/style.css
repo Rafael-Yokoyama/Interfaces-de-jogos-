@@ -89,4 +89,25 @@ nav {
 nav a {
   margin-left: 5px;
 }
+
+/*Responsividade*/
+@media (max-width: 730px) {
+  body {
+    margin: 20px;
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+  #texto p.menor {
+    font-size: 25px;
+  }
+  nav img {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
