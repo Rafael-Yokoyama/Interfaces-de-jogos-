@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'in_your_face_joffrey_medium';
+  src: url("../fonts/in_your_face_joffrey-webfont.woff2") format("woff2"), url("../fonts/in_your_face_joffrey-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'in_your_face_joffrey_medium';
+  color: white;
 }
 
 body {
@@ -22,10 +31,50 @@ body {
           justify-content: center;
 }
 
+#texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grande {
+  margin-left: 20px;
+  font-size: 65px;
+}
+
+.menor {
+  margin-left: 20px;
+  font-size: 35px;
+}
+
+#texto p {
+  cursor: pointer;
+  position: relative;
+  top: 240px;
+  text-align: center;
+  display: block;
+  width: 160px;
+  height: 65px;
+  border: solid 4px white;
+  border-radius: 10px;
+}
+
+#texto p.menor {
+  margin-top: 15px;
+  height: 40px;
+  border: solid 4px white;
+}
+
 nav {
   width: 100%;
   position: relative;
-  top: 23rem;
+  top: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
